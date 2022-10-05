@@ -7,13 +7,13 @@
         <meta
             http-equiv="Cache-Control"
             content="no-cache, no-store, must-revalidate"
-        />
+            />
         <meta http-equiv="Pragma" content="no-cache" />
         <meta http-equiv="Expires" content="0" />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-        />
+            />
         <link rel="stylesheet" href="css/main.css" />
     </head>
     <body>
@@ -21,21 +21,42 @@
         <div class="topbar">
             <a href="#home" class="bar-item button topbar-logo wide">LOGO</a>
             <!-- Right-sided navbar links -->
-            <div class="topbar-menu">
-                <a href="#about" class="menu-bar-item button">ABOUT</a>
-                <a href="#team" class="menu-bar-item"
-                    ><i class="fa fa-user"></i> TEAM</a
-                >
-                <a href="#work" class="menu-bar-item"
-                    ><i class="fa fa-th"></i> WORK</a
-                >
-                <a href="#pricing" class="menu-bar-item"
-                    ><i class="fa fa-usd"></i> PRICING</a
-                >
-                <a href="#contact" class="menu-bar-item"
-                    ><i class="fa fa-envelope"></i> CONTACT</a
-                >
-            </div>
+            <ul class="topbar-menu">
+                <li>
+                    <a href="#about" class="menu-bar-item button">ABOUT</a>
+                </li> 
+                <li class="dropdown">
+                    <a href="#team" class="menu-bar-item drop-btn"><i class="fa fa-user"></i>TEAM</a>
+                    <div class="son-menu">
+                        <a href="">
+                            1
+                        </a>
+                        <a href="">
+                            2
+                        </a>
+                        <a href="">
+                            3
+                        </a>
+                        <a href="">
+                            4
+                        </a>
+                    </div>
+                    
+                </li>
+                <li>
+                    <a href="#work" class="menu-bar-item"><i class="fa fa-th"></i>
+                        WORK</a>
+                </li>
+                <li>
+                    <a href="#pricing" class="menu-bar-item"><i class="fa fa-usd"></i>
+                        PRICING</a>
+                </li> 
+                <li>
+                    <a href="#contact" class="menu-bar-item"><i class="fa
+                        fa-envelope"></i> CONTACT</a>
+                </li>
+               
+            </ul>
         </div>
         <!-- Header with full-height image -->
         <header class="" id="banner">
@@ -48,9 +69,8 @@
                     you.
                 </p>
                 <div class="mt-6">
-                    <a href="#about" class="btn border-radius-1"
-                        >Learn more and start today</a
-                    >
+                    <a href="#about" class="btn border-radius-1">Learn more and
+                        start today</a>
                 </div>
             </div>
             <div class="banner-icon">
@@ -120,9 +140,8 @@
                         dolore.
                     </p>
                     <p>
-                        <a href="#work" class="btn btn-black"
-                            ><i class="fa fa-th">&nbsp;</i> View Our Works</a
-                        >
+                        <a href="#work" class="btn btn-black"><i class="fa
+                                fa-th">&nbsp;</i> View Our Works</a>
                     </p>
                 </div>
                 <div class="col-6">
@@ -130,7 +149,7 @@
                         class="image w-100"
                         src="./images/phone_buildings.jpg"
                         alt="Buildings"
-                    />
+                        />
                 </div>
             </div>
         </div>
@@ -148,7 +167,7 @@
                             src="./images/team2.jpg"
                             alt="John"
                             style="width: 100%"
-                        />
+                            />
                         <div class="">
                             <h3>John Doe</h3>
                             <p class="opacity">CEO & Founder</p>
@@ -171,7 +190,7 @@
                             src="./images/team1.jpg"
                             alt="Jane"
                             style="width: 100%"
-                        />
+                            />
                         <div class="">
                             <h3>Anja Doe</h3>
                             <p class="opacity">Art Director</p>
@@ -194,7 +213,7 @@
                             src="./images/team3.jpg"
                             alt="Mike"
                             style="width: 100%"
-                        />
+                            />
                         <div class="">
                             <h3>Mike Ross</h3>
                             <p class="opacity">Web Designer</p>
@@ -217,7 +236,7 @@
                             src="./images/team4.jpg"
                             alt="Dan"
                             style="width: 100%"
-                        />
+                            />
                         <div class="">
                             <h3>Dan Star</h3>
                             <p class="opacity">Designer</p>
@@ -261,7 +280,6 @@
         <div class="container" style="padding: 128px 16px" id="work">
             <h3 class="text-center text-grey text-size-3">OUR WORK</h3>
             <p class="text-center text-size-2">What we've done for people</p>
-
             <div class="row flex-wrap" style="margin-top: 64px">
                 <div class="col p-2">
                     <img
@@ -270,7 +288,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="A microphone"
-                    />
+                        />
                 </div>
                 <div class="col p-2">
                     <img
@@ -279,7 +297,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="A phone"
-                    />
+                        />
                 </div>
                 <div class="col p-2">
                     <img
@@ -288,7 +306,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="A drone"
-                    />
+                        />
                 </div>
                 <div class="col p-2">
                     <img
@@ -297,7 +315,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="Soundbox"
-                    />
+                        />
                 </div>
                 <div class="col p-2">
                     <img
@@ -306,7 +324,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="A tablet"
-                    />
+                        />
                 </div>
                 <div class="col p-2">
                     <img
@@ -315,7 +333,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="A camera"
-                    />
+                        />
                 </div>
                 <div class="col p-2">
                     <img
@@ -324,7 +342,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="A typewriter"
-                    />
+                        />
                 </div>
                 <div class="col p-2">
                     <img
@@ -333,7 +351,7 @@
                         onclick="onClick(this)"
                         class="hover-opacity"
                         alt="A tableturner"
-                    />
+                        />
                 </div>
             </div>
         </div>
@@ -367,8 +385,7 @@
                     <div class="process">
                         <div
                             class="container process-info center"
-                            style="width: 85%"
-                        >
+                            style="width: 85%">
                             85%
                         </div>
                     </div>
@@ -376,8 +393,7 @@
                     <div class="process">
                         <div
                             class="container process-info center"
-                            style="width: 75%"
-                        >
+                            style="width: 75%">
                             75%
                         </div>
                     </div>
@@ -489,8 +505,7 @@
                 <div style="margin-top: 48px" class="text-size-2">
                     <p>
                         <i
-                            class="fa fa-map-marker fa-fw xxlarge margin-right"
-                        ></i>
+                            class="fa fa-map-marker fa-fw xxlarge margin-right"></i>
                         Chicago, US
                     </p>
                     <p>
@@ -511,7 +526,7 @@
                                 placeholder="Name"
                                 required
                                 name="Name"
-                            />
+                                />
                         </p>
                         <p>
                             <input
@@ -520,7 +535,7 @@
                                 placeholder="Email"
                                 required
                                 name="Email"
-                            />
+                                />
                         </p>
                         <p>
                             <input
@@ -529,7 +544,7 @@
                                 placeholder="Subject"
                                 required
                                 name="Subject"
-                            />
+                                />
                         </p>
                         <p>
                             <input
@@ -538,7 +553,7 @@
                                 placeholder="Message"
                                 required
                                 name="Message"
-                            />
+                                />
                         </p>
                         <p>
                             <button class="btn btn-black" type="submit">
@@ -553,15 +568,14 @@
                 src="/images/map.jpg"
                 class="image greyscale"
                 style="width: 100%; margin-top: 48px"
-            />
+                />
         </div>
 
         <!-- Footer -->
         <footer class="text-center p-2 bg-dark text-light d-flex flex-column">
             <div class="d-flex text-center justify-center">
-                <a href="#home" class="btn m-1"
-                    ><i class="fa fa-arrow-up margin-right"></i>To the top</a
-                >
+                <a href="#home" class="btn m-1"><i class="fa fa-arrow-up
+                        margin-right"></i>To the top</a>
             </div>
             <div class="xlarge section">
                 <i class="fa fa-facebook-official hover-opacity"></i>
@@ -577,9 +591,7 @@
                     href="https://www.w3schools.com/w3css/default.asp"
                     title="W3.CSS"
                     target="_blank"
-                    class="hover-text-green"
-                    >w3.css</a
-                >
+                    class="hover-text-green">w3.css</a>
             </p>
         </footer>
 
